@@ -1,0 +1,60 @@
+
+
+table {
+    border: medium solid #000000;
+}
+
+tr {
+    height: 60px;
+}
+
+tr:nth-child(1){
+    background-color: lightgrey;
+}
+
+tr:nth-child(10){
+    background-color: lightgrey;
+}
+
+td {
+    width: 60px;
+}
+
+p {
+    text-align: center;
+}
+
+td:nth-child(1){
+    background-color: lightgrey;
+}
+
+td:nth-child(10){
+    background-color: lightgrey;
+}
+
+table tr:nth-child(1) td:nth-child(1) {
+    background-color: grey;
+}
+
+table tr:nth-child(1) td:nth-child(10) {
+    background-color: grey;
+}
+
+table tr:nth-child(10) td:nth-child(1) {
+    background-color: grey;
+}
+
+table tr:nth-child(10) td:nth-child(10) {
+    background-color: grey;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label,button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
